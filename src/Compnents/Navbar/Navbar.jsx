@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../../assets/Icon.png';
 import { Link } from 'react-router-dom';
 
 export default function ScoutNavbar() {
@@ -10,7 +9,7 @@ export default function ScoutNavbar() {
         {/* Logo and Brand */}
         <div className="flex items-center space-x-8 ms-28">
          <Link to="/" className="flex items-center space-x-2 ">
-          <img src={logo} alt="Scout Logo" />
+         <img src="/Icon.png" alt="Icon" />
         </Link>
           
           {/* Navigation Links */}
