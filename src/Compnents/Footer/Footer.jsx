@@ -1,7 +1,6 @@
 import React from 'react';
 import { FaGlobe, FaTwitter, FaLinkedin } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
-import logo from '../../Assets/Icon.png';
 
 const Footer = () => {
   return (
@@ -14,7 +13,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-5 gap-4 mb-16 ">
           {/* Scout Logo and Status */}
           <div className="col-span-1 md:col-span-2 ms-44 relative">
-            <img src={logo} alt="Scout Logo"/>
+         <img src="/Icon.png" alt="Icon" />
             <div className="absolute bottom-25 right-5 w-full h-px bg-gradient-to-r from-white/5 via-white/10 to-white/5"></div>
             <div className="absolute top-32 -right-0 w-40 h-px bg-gradient-to-r from-white/5 via-white/10 to-white/5 transform -rotate-45"></div>
 
